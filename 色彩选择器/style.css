@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 30px;
+}
+#indicator{
+	margin-left:10px;
+	width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 10px solid black;
+    border-bottom: 5px solid transparent;
+}
+#circle{
+	position: fixed;
+	top: 30px;
+	left: 342px;
+	z-index: 10;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    border: 1px black solid;
+}
+#textbox{
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 10px;
+	
+}
+label{
+	display: inline-block;
+	width: 80px;
+	text-align: right;
+}
+input{
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	size: 30px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}

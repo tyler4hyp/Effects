@@ -1,0 +1,22 @@
+#container{
+	width: 1500px;
+	height: 800px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#show{
+    border: 1px black solid;
+    margin: 10px;
+}
+
+#thumb{
+	position: relative;
+	margin: 10px;
+}
+
+#box{
+	position: absolute;
+	border: 1px red solid;
+}

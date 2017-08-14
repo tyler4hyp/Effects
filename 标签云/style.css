@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#tags{
+	margin: 0 auto;
+	position: relative;
+	width: 600px;
+	height: 600px;
+	perspective: 5000px;
+}
+.tag{
+	position: absolute;
+}
+.tag:hover{
+	border: 1px black solid;
+}

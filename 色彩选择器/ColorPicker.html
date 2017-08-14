@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="container">
+			<canvas id="box" width="300px" height="300px"></canvas>
+			<div id="indicator"></div>
+			<canvas id="bar" width="30px" height="300px"></canvas>
+			<div id="textbox">
+				<div>
+					<label>R:</label>
+					<input id="rcol" type="number" max="255" min="0" step="1">
+				</div>
+				<div>
+					<label>G:</label>
+					<input id="gcol" type="number" max="255" min="0" step="1">
+				</div>
+				<div>
+					<label>B:</label>
+					<input id="bcol" type="number" max="255" min="0" step="1">
+				</div>
+				<div>
+					<label>H:</label>
+					<input id="hcol" type="number" max="360" min="0">
+				</div>
+				<div>
+					<label>S:</label>
+					<input id="scol" type="number" max="1" min="0">
+				</div>
+				<div>
+					<label>L:</label>
+					<input id="lcol" type="number" max="1" min="0">
+				</div>
+				<div>
+					<label>css color:</label>
+					<input id="csscol" type="text">
+				</div>
+			</div>
+			<div id="circle"></div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
